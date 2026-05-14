@@ -307,7 +307,7 @@ python Projectile_sim.py
 
 Both plots are displayed as a single combined image using Matplotlib's subplot layout, allowing direct side-by-side comparison in one view.
 
-![Projectile Trajectory & Energy Analysis](https://raw.githubusercontent.com/mrigank-script/Projectile_Simulator/main/Screenshots/Graph_1.png)
+![Projectile Trajectory & Energy Analysis](https://raw.githubusercontent.com/mrigank-script/Projectile_Simulator/main/Screenshots/Graph_2.png)
 
 ### Left — Trajectory Comparison (x vs y)
 

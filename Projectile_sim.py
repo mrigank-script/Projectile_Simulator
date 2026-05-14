@@ -71,7 +71,7 @@ while True:
       #Updating Velocity Without Drag
     vsin -= 9.8 * dt
     #Breaking On Basis Of Velocity in Y
-    if yi < 0 and yi_drag < 0:
+    if yi < 0 or yi_drag < 0:
         break
     i += 1
     t += dt

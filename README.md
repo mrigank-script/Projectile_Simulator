@@ -305,11 +305,15 @@ python Projectile_sim.py
 
 ## Output & Visualisations
 
-### Plot 1 — Trajectory Comparison (x vs y)
+Both plots are displayed as a single combined image using Matplotlib's subplot layout, allowing direct side-by-side comparison in one view.
+
+![Projectile Trajectory & Energy Analysis](https://raw.githubusercontent.com/mrigank-script/Projectile_Simulator/main/Screenshots/Graph_1.png)
+
+### Left — Trajectory Comparison (x vs y)
 
 Displays the full flight path of both the ideal and drag-affected projectiles. The drag trajectory shows visibly lower peak height and shorter horizontal range — the direct consequence of the $v^2$ drag term removing energy continuously throughout flight.
 
-### Plot 2 — Energy vs Time
+### Right — Energy vs Time
 
 Four curves are plotted: KE and PE for both conditions. In the no-drag case, as KE falls PE rises and vice versa — their sum remains constant, confirming conservation of mechanical energy. In the drag case, the total KE + PE decreases continuously as energy is dissipated into the surrounding air primarily as heat.
 
